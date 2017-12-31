@@ -7,9 +7,9 @@ This is a place for me to collect and collate interesting articles related to di
 * [The world beyond batch: Streaming 101](http://radar.oreilly.com/2015/08/the-world-beyond-batch-streaming-101.html) by [Tyler Akidau](http://twitter.com/takidau). A medium length introduction the fundamental concepts of stream processing by one of the authors of Google's in-house solution, [MillWheel](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41378.pdf).  This is an excellent introduction for those completely new to stream processing. The two biggest take-aways are that stream processing systems that do not provide a consistent view of the data should not be trusted and that for time-based computation, event-time windows, while the most difficult to achieve, are the only approach worth pursuing.
 
 
-##Performance##
+## Performance
 * [You're probably wrong about caching](http://msol.io/blog/tech/youre-probably-wrong-about-caching/) by [Mike Solomon](https://twitter.com/msol).  Good summary of potential downsides of using caching to increase system performance.
 
-##Machine learning platforms##
+## Machine learning platforms
 * [TFX: A TensorFlow-Based Production-Scale Machine Learning Platform](http://stevenwhang.com/tfx_paper.pdf). Paper from KDD 2017 describing the machine learning platform that Google built.  Includes godo descriptions of how to define a good model, metrics to compare different sets of training data and a high description of API used to deploy into the system.
 * [Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo/). Blog post from Uber describing the platform they've built atop Samza, HDFS, Kafka and TensorFlow.
