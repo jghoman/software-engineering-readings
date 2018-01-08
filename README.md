@@ -13,3 +13,6 @@ This is a place for me to collect and collate interesting articles related to di
 ## Machine learning platforms
 * [TFX: A TensorFlow-Based Production-Scale Machine Learning Platform](http://stevenwhang.com/tfx_paper.pdf). Paper from KDD 2017 describing the machine learning platform that Google built.  Includes godo descriptions of how to define a good model, metrics to compare different sets of training data and a high description of API used to deploy into the system.
 * [Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo/). Blog post from Uber describing the platform they've built atop Samza, HDFS, Kafka and TensorFlow.
+
+## Location/GIS
+* [How We Built Uber Engineering’s Highest Query per Second Service Using Go](http://eng.uber.com/go-geofence/).  While primarily about why Uber chose Go for their core location geofencing lookup service, this blog post also has some interesting details about how they strucutured the geofences for optimized lookups and how they deliver updated geofences to the running appliction.
